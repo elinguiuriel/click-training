@@ -1,15 +1,11 @@
-from setuptools import setup 
+from setuptools import setup
 
 setup(
     name="yourscipt",
     version="0.1.0",
-    py_modules=['yourscript'],
+    py_modules=["yourscript"],
     install_requires=[
-        'click',
+        "click",
     ],
-    entry_points={
-        'console_scripts': [
-            'yourscipt = yourscript:cli'
-        ]
-    }
+    entry_points={"console_scripts": ["yourscipt = yourscript:cli"]},
 )
